@@ -171,7 +171,7 @@ class _MediaContainerState extends State<MediaContainer>
       case ViewMode.standard:
       case ViewMode.quote:
       default:
-        borderRadius = BorderRadius.all(Radius.zero);
+        borderRadius = BorderRadius.all(Radius.circular(10.0));
         break;
     }
 
